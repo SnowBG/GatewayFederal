@@ -3,7 +3,7 @@
 """
 Esse programa envia uma mensagem única para a fila.
 
-Modules:
+Módulos:
     pika
 """
 
