@@ -5,6 +5,11 @@ Esse programa envia uma mensagem única para a fila.
 
 Módulos:
     pika
+Variáveis:
+    - connection: estipula qual endereço de servidor será usado.
+    - channel: instância do canal a ser conectado.
+Parâmetros:
+    - queue: define qual fila será consumida.
 """
 
 import pika
