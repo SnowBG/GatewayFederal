@@ -10,6 +10,9 @@ Variáveis:
     - channel: instância do canal a ser conectado.
 Parâmetros:
     - queue: define qual fila será consumida.
+    - exchange: [manter vazio].
+    - routing_key: nome da fila utilizada.
+    - body: conteúdo da mensagem a ser enviada.
 """
 
 import pika
