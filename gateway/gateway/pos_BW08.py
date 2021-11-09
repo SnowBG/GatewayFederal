@@ -22,6 +22,6 @@ class position_bw08:
 
     def __init__(self, position):
         """Método inicial para quebrar as informações do rastreador."""
-        self.start = position[0:2]
-        self.lenght = position[2:3]
-        self.protocol = position[3:4]
+        self.position = {"start": position[0:2]}
+        self.position = {"lenght": position[2:3]}
+        self.position = {"protocol": position[3:4]}
